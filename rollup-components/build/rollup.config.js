@@ -60,7 +60,7 @@ export default {
         alias({
             entries: [{
                 find: /\/@\//,
-                replacement: resolve(__dirname, '../src'),
+                replacement: resolve(__dirname, '../src')+'/',
             }]
         })
     ],
